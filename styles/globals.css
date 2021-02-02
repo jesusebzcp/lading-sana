@@ -1,0 +1,221 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+}
+.positionNav {
+  width: 100%;
+  position: fixed;
+}
+.containerLogo img {
+  width: 100px;
+}
+.containerLinks a {
+  margin-right: 1rem;
+  cursor: pointer;
+  color: white;
+}
+.containerLinks a:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  transition: all 0.4s ease;
+}
+.Hero {
+  height: 90vh;
+  background-image: url("/static/images/hero.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.capa {
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.274);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.capa h1 {
+  color: white;
+  font-size: 3.5rem;
+  opacity: 0;
+}
+.primaryButton {
+  background-color: #f8a04b;
+  border: 0;
+  outline: none;
+  padding: 10px 2rem;
+  border-radius: 5px;
+  color: white;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.primaryButton:hover {
+  background-color: #e08e40;
+  transition: all 0.5s ease;
+}
+.secondaryButton {
+  background-color: transparent;
+  border: 0;
+  color: #e08e40;
+  cursor: pointer;
+}
+.secondaryButton:hover {
+  color: #cf7d2f;
+}
+.title {
+  color: #326c87;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0;
+}
+.containerCards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2rem;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+}
+.card:hover {
+  transition: all 0.5s ease;
+  -webkit-box-shadow: 0px 0px 49px -6px rgba(224, 142, 64, 1);
+  -moz-box-shadow: 0px 0px 49px -6px rgba(224, 142, 64, 1);
+  box-shadow: 0px 0px 49px -6px rgba(224, 142, 64, 1);
+}
+.icon {
+  background-color: #e08e40;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titleCard {
+  margin-top: 1rem;
+  color: #326c87;
+}
+.card p {
+  color: #326c87;
+  text-align: center;
+}
+
+.sectionTeam {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.imgSection {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgSection img {
+  width: 200px;
+  height: 300px;
+}
+.sectionInformation {
+  flex: 1;
+}
+.sectionInformation h3 {
+  color: #326c87;
+  font-size: 2rem;
+}
+.sectionInformation p {
+  color: #326c87;
+  width: 80%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+.content {
+  flex: 10;
+}
+.separatorFlex {
+  flex: 1;
+}
+.containerLaboratory {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.option {
+  display: flex;
+  width: 400px;
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px -9px rgba(224, 140, 61, 1);
+  -moz-box-shadow: 0px 0px 30px -9px rgba(224, 140, 61, 1);
+  box-shadow: 0px 0px 30px -9px rgba(224, 140, 61, 1);
+  margin: 1rem 0;
+}
+.titleOption {
+  margin-left: 10px;
+  color: #326c87;
+  font-weight: bold;
+}
+.laboratory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.doctor2 img {
+  width: 400px;
+  height: 300px;
+}
+.doctor2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.containerProof {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background-color: #326c87;
+  height: 100px;
+  margin-top: 2rem;
+}
+.proof {
+  display: flex;
+  flex-direction: row-reverse;
+}
